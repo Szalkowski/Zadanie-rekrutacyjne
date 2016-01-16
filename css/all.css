@@ -23,6 +23,7 @@ li
 {
 	float:left;
 	margin-left:5px;
+	box-sizing:border-box;
 }
 input
 {
@@ -51,11 +52,15 @@ button:hover
     background: url("../images/yoda.png");
     display: block;
 	cursor: pointer;
+	border:3px solid white;
+	box-sizing:border-box;
+	border-radius: 20px;
 }
 #checkbox_yoda:checked + label
 {
 	border: 3px black solid;
 	border-radius: 20px;
+	box-sizing:border-box;
 }
 #checkbox_trooper + label
 {
@@ -65,6 +70,9 @@ button:hover
     background: url("../images/trooper.png");
     display: block;
 	cursor: pointer;
+	border:3px solid white;
+	box-sizing:border-box;
+	border-radius: 20px;
 }
 #checkbox_trooper:checked + label
 {
@@ -79,11 +87,15 @@ button:hover
     background: url("../images/vader.png");
     display: block;	
 	cursor: pointer;
+	border:3px solid white;
+	box-sizing:border-box;
+	border-radius: 20px;
 }
 #checkbox_vader:checked + label
 {
 	border: 3px black solid;
 	border-radius: 20px;
+	box-sizing:border-box;
 }
 label:hover::after{
   content: attr(data-sentence);
@@ -94,7 +106,7 @@ label:hover::after{
   text-align:center;
   border-bottom-right-radius: 20px;
   border-bottom-left-radius: 20px;
-  margin-top:165px;
+  margin-top:159px;
   text-indent:0;
   line-height:70px;
 }
